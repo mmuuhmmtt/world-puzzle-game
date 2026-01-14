@@ -53,6 +53,17 @@ Birkaç dakika içinde oyunun şu adreste yayınlanacak:
 
 ## 🛠 Technologies
 
-- [PixiJS](https://pixijs.com/) - 2D WebGL Rendering
-- [GSAP](https://greensock.com/gsap/) - Animations
-- [Webpack](https://webpack.js.org/) - Module Bundler
+| Teknoloji | Versiyon | Açıklama |
+|-----------|----------|----------|
+| [PixiJS](https://pixijs.com/) | 7.3.1 | 2D WebGL Rendering Engine |
+| [GSAP](https://greensock.com/gsap/) | 3.12.1 | Animation Library |
+| [Webpack](https://webpack.js.org/) | 5.73.0 | Module Bundler |
+| JavaScript | ES6+ | Programming Language |
+
+## 🎮 Gameplay
+
+Harfleri sürükleyerek kelimeler oluştur ve bulmacayı çöz!
+
+## 📝 License
+
+MIT License
