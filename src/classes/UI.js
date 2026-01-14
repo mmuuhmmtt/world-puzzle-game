@@ -29,13 +29,13 @@ export default class UI extends Container {
   createLevelDisplay() {
     this.levelContainer = new Container();
     this.levelContainer.x = this.gameWidth / 2;
-    this.levelContainer.y = 30;
+    this.levelContainer.y = 50;
     this.addChild(this.levelContainer);
 
     // Level numarası
     this.levelText = new Text("Level 1", {
       fontFamily: "Sniglet",
-      fontSize: 18,
+      fontSize: 20,
       fill: Theme.textSecondary,
       fontWeight: "bold"
     });
@@ -45,11 +45,11 @@ export default class UI extends Container {
     // Level adı
     this.levelNameText = new Text("Başlangıç", {
       fontFamily: "Sniglet",
-      fontSize: 14,
+      fontSize: 16,
       fill: Theme.textMuted
     });
     this.levelNameText.anchor.set(0.5);
-    this.levelNameText.y = 22;
+    this.levelNameText.y = 25;
     this.levelContainer.addChild(this.levelNameText);
   }
 
@@ -59,7 +59,7 @@ export default class UI extends Container {
   createProgressDisplay() {
     this.progressContainer = new Container();
     this.progressContainer.x = this.gameWidth / 2;
-    this.progressContainer.y = 75;
+    this.progressContainer.y = 100;
     this.addChild(this.progressContainer);
 
     // Arka plan
