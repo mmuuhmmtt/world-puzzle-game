@@ -22,12 +22,16 @@
 
     #logo {
       width: 100%;
-      max-width: 120px;
+      max-width: 150px;
       position: absolute;
       top: 10px;
       left: 10px;
       z-index: 100;
-      opacity: 0.8;
+      font-family: 'Sniglet', sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      color: #a78bfa;
+      text-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
     }
 
     #bg {
@@ -50,7 +54,7 @@
 
 <body>
   <div id="bg"></div>
-  <img id="logo" src="./assets/core/logo_white.png" alt="loading">
+  <div id="logo">🎮 Puzzle World</div>
   <script>
     document.addEventListener('contextmenu', event => event.preventDefault());
   </script>
