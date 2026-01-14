@@ -1,0 +1,74 @@
+{
+  "bundles": [
+    {
+      "name": "game",
+      "assets": [
+        {
+          "name": "logo",
+          "srcs": "assets/core/logo_white.png"
+        },
+        {
+          "name": "background",
+          "srcs": "assets/background.png"
+        },
+        {
+          "name": "circle",
+          "srcs": "assets/circle.png"
+        },
+        {
+          "name": "circle0",
+          "srcs": "assets/circle0.png"
+        },
+        {
+          "name": "circle2",
+          "srcs": "assets/circle2.png"
+        },
+        {
+          "name": "circle-in",
+          "srcs": "assets/circle-in.png"
+        },
+        {
+          "name": "circle-out",
+          "srcs": "assets/circle-out.png"
+        },
+        {
+          "name": "gray-pane",
+          "srcs": "assets/gray-pane.png"
+        },
+        {
+          "name": "green-pane",
+          "srcs": "assets/green-pane.png"
+        },
+        {
+          "name": "orange-pane",
+          "srcs": "assets/orange-pane.png"
+        },
+        {
+          "name": "bubble-white",
+          "srcs": "assets/bubble-white.png"
+        },
+        {
+          "name": "hand",
+          "srcs": "assets/hand.png"
+        },
+        {
+          "name": "tick",
+          "srcs": "assets/tick.png"
+        },
+        {
+          "name": "cross",
+          "srcs": "assets/cross.png"
+        }
+      ]
+    },
+    {
+      "name": "fonts",
+      "assets": [
+        {
+          "name": "font",
+          "srcs": "assets/Sniglet-Regular.ttf"
+        }
+      ]
+    }
+  ]
+}
